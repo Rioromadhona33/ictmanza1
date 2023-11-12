@@ -1,0 +1,909 @@
+/* Font dan background elegan */
+/* Default styles */
+
+
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: ;
+  margin: 0;
+}
+
+
+
+.container {
+  width: 100%;
+  /* Lebar kontainer 100% dari viewport */
+  height: 100%;
+  /* Tinggi kontainer 100% dari viewport */
+}
+
+/* Styles for mobile devices */
+
+@media (max-width: 767px) {
+  .container {
+    height: 100vh;
+    /* Tinggi kontainer mengisi seluruh tinggi viewport */
+  }
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    width: 80%;
+    /* Lebar kontainer 80% dari viewport */
+    height: 80vh;
+    /* Tinggi kontainer 80% dari viewport */
+  }
+}
+
+/* Styles for desktop */
+@media (min-width: 1024px) and (max-width: 1025px) {
+  .container {
+    width: 100%;
+    /* Lebar kontainer 70% dari viewport */
+    height: 100vh;
+    /* Tinggi kontainer 70% dari viewport */
+  }
+}
+
+
+/* Header dengan tampilan menarik */
+header {
+  background-image: linear-gradient(to right, #0e0689, #147aff);
+  background-size: cover;
+  height: 11vh;
+  /* Ubah tinggi header sesuai keinginan Anda */
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo-container {
+  width: 100px;
+  /* Sesuaikan ukuran logo */
+  height: 100px;
+  /* Sesuaikan ukuran logo */
+  /* Membuat logo berbentuk lingkaran */
+  overflow: hidden;
+  /* Memastikan logo tetap berbentuk lingkaran */
+  margin-right: 15px;
+
+}
+
+.logo {
+  width: 100%;
+  /* Mengisi logo sesuai dengan lebar kontainer */
+  height: 100%;
+  /* Mengisi logo sesuai dengan tinggi kontainer */
+  object-fit: cover;
+  /* Memastikan logo memenuhi kontainer */
+}
+
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-family: Couture, Arial Rounded MT Bold;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin-left: 10px;
+
+}
+
+
+.image-container {
+  position: relative;
+  max-width: 300px;
+  /* Sesuaikan lebar maksimum gambar */
+  margin: 0 auto;
+}
+
+
+/* Navigasi yang lebih menonjol */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #1307bb, #2483ff);
+  text-align: right;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 10px;
+  transition: background-color 0.3s;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: Arial;
+
+}
+
+nav a:hover {
+  background-color: #147aff;
+
+}
+
+/* Konten dengan desain dinamis */
+#content {
+  padding: 20px;
+  background-color: #00796b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #00bcd4;
+  font-size: 50px;
+  margin-bottom: 90px;
+}
+
+p {
+  color: #009688;
+  line-height: 1.6;
+}
+
+/* ... kode CSS lainnya ... */
+
+
+
+footer {
+  background-image: linear-gradient(to right, #2014c2, #0b65da);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 15px;
+  /* Menambahkan ketebalan pada teks */
+}
+
+footer span {
+  color: #00bcd4;
+  /* Mengubah warna tulisan Hak Cipta */
+}
+
+.copyrigth {
+  font-size: 15px;
+  color: #8099e5;
+}
+
+.social-media a {
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 27px;
+}
+
+
+#kontak {
+  background-image: linear-gradient(to right, #32f40b, #0489dc);
+  height: auto;
+  padding: 20px;
+  border-radius: 0px;
+  margin-top: 0px;
+}
+
+#kontak h2 {
+  text-align: center;
+  color: white;
+  font-family: Times, serif, Arial;
+  margin-bottom: 10px;
+}
+
+#kontak p {
+  text-align: left;
+  color: white;
+  font-family: Times, serif, Arial;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
+/* ini ukuran laayr 375px/ layar hp */
+@media (max-width: 375px) {
+
+  header {
+    background-image: linear-gradient(to right, #1769d3, #147aff);
+  }
+
+  nav li:first-child {
+    display: none;
+  }
+
+  h2 {
+    color: #00bcd4;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+
+
+  :root {
+    --gradient1: radial-gradient(circle farthest-corner at 50% 70%, rgba(171, 102, 255, 1) 70%, rgba(116, 182, 247, 1) 30%);
+  }
+
+  #kontak p {
+    font-family: 'Roboto', sans-serif, arial;
+    text-align: left;
+    letter-spacing: 0px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #kontak {
+    height: auto;
+    background-image: var(--gradient1);
+    background-size: 250%;
+    animation: gradientAnimation 20s infinite alternate;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: left;
+    }
+
+    100% {
+      background-position: right;
+    }
+  }
+
+  .title {
+    margin: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    font-family: Couture, Arial Rounded MT Bold;
+    position: relative;
+    z-index: 1;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 20.5vh;
+    height: auto;
+    position: relative;
+    margin-right: 4.9px;
+  }
+
+
+
+  .logo {
+    width: 100%;
+    height: 100%;
+    /*osisi logo di tengah secara vertikal */
+    left: 50%;
+    /* Posisi logo di tengah secara horizontal */
+
+  }
+
+  header {
+    justify-content: space-between;
+    height: 20vh;
+    position: relative;
+    /* Ubah tinggi header sesuai keinginan Anda */
+
+  }
+
+
+
+  .copyrigth {
+    font-size: 11px;
+    margin-top: 10px;
+  }
+
+  .social-media a {
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  :root {
+    --gradient: linear-gradient(120deg, #9470ff 5%, #1e82e6 30%, #9470ff 100%, #18a0fb 10%);
+
+
+  }
+
+  .floating-warning button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    margin-right: 8px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+
+  .floating-warning {
+    position: fixed;
+    height: 80px;
+    bottom: 30px;
+    margin-left: 10px;
+    right: 20px;
+    background-color: rgba(231, 76, 60, 0.9);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .floating-warning p {
+    margin: 0;
+    color: white;
+  }
+
+  nav ul {
+
+    text-align: left;
+    background-image: var(--gradient);
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);
+    border: 0.3px solid #0070e0;
+    height: 62px;
+    background-size: 200%;
+    animation: gradientAnimation1 15s infinite alternate;
+  }
+
+  @keyframes gradientAnimation1 {
+    0% {
+      background-position: right;
+    }
+
+    100% {
+      background-position: left;
+    }
+  }
+
+
+  nav li {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 20px;
+  }
+
+  nav a {
+
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  nav a:hover {
+    background-image: linear-gradient(120deg, #245bff 50%, #6368f2 50%);
+  }
+}
+
+/* jeda untuk lebih jelas*/
+
+
+/* ini buat hp yang tinggi laayr 900px dan lebar sektar 400px*/
+@media (min-width: 376px) and (max-width: 425px) {
+
+  header {
+    background-image: linear-gradient(to right, #1769d3, #147aff);
+    height: 14vh
+  }
+
+  nav li:first-child {
+    display: none;
+  }
+
+  :root {
+    --gradient1: radial-gradient(circle farthest-corner at 50% 50%, rgba(171, 102, 255, 1) 70%, rgba(116, 182, 247, 1) 30%);
+  }
+
+  #kontak {
+    height: auto;
+    background-image: var(--gradient1);
+    background-size: 200%;
+    animation: gradientAnimation 20s infinite alternate;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: left;
+    }
+
+    100% {
+      background-position: right;
+    }
+  }
+
+
+
+  /*bagian tulisan selamat datang*/
+  .title {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Couture, Arial Rounded MT Bold;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 20.5vh;
+    height: auto;
+    position: relative;
+    margin-right: 4.9px;
+  }
+
+  :root {
+    --gradient3: linear-gradient(120deg, #9470ff 5%, #1e82e6 30%, #9470ff 100%, #18a0fb 10%);
+
+  }
+
+  .floating-warning button {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+
+    margin-right: 8px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+
+  .floating-warning {
+    height: 80px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 10px;
+    right: 25px;
+    background-color: rgba(231, 76, 60, 0.9);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .floating-warning p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 0;
+    color: white;
+  }
+
+  nav ul {
+    text-align: left;
+    background-image: var(--gradient3);
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);
+    border: 0.2px solid #1780e8;
+    height: 62px;
+    background-size: 200%;
+    animation: gradientAnimation12 12s infinite alternate;
+  }
+
+  @keyframes gradientAnimation12 {
+    0% {
+      background-position: right;
+    }
+
+    100% {
+      background-position: left;
+    }
+  }
+
+  nav li {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 20px;
+  }
+
+  nav a {
+
+    padding: 10px 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav a:hover {
+    background-image: linear-gradient(120deg, #2f5ef9 50%, #5c5fff 50%);
+  }
+
+}
+
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+  #kontak {
+    height: 490px;
+    /* Ubah tinggi sesuai kebutuhan Anda */
+  }
+
+  .logo-container {
+    width: 20vh;
+    /* Sesuaikan ukuran logo */
+    height: auto;
+    /* Sesuaikan ukuran logo */
+    /* Membuat logo berbentuk lingkaran */
+    /* Memastikan logo tetap berbentuk lingkaran */
+    margin-right: 20px;
+
+  }
+
+  nav ul {
+    text-align: left;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  nav a {
+
+    padding: 9px 7px;
+    margin-bottom: 0px;
+    font-size: 20px;
+
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  header {
+    background-image: linear-gradient(to right, #1769d3, #147aff);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 1.0);
+    height: 20vh
+  }
+
+  nav li:first-child {
+    display: none;
+  }
+
+  :root {
+    --gradient14:
+      radial-gradient(circle farthest-corner at 80% 80%, rgba(171, 102, 255, 1) 70%, rgba(116, 182, 247, 1) 30%);
+  }
+
+  #kontak {
+    height: 100vh;
+    background-image: var(--gradient14);
+    opacity: 0.9;
+    background-size: 230%;
+    animation: gradientAnimation 20s infinite alternate;
+
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: left;
+    }
+
+    100% {
+      background-position: right;
+    }
+  }
+
+
+
+  /*bagian tulisan selamat datang*/
+  .title {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Couture, Arial Rounded MT Bold;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 20.5vh;
+    height: auto;
+    position: relative;
+    margin-right: 4.9px;
+  }
+
+  :root {
+    --gradient3: linear-gradient(120deg, #9470ff 5%, #1e82e6 30%, #9470ff 100%, #18a0fb 10%);
+
+  }
+
+  nav ul {
+    text-align: center;
+    background-image: var(--gradient3);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 1.0), 0px 0px 2px rgba(0, 0, 0, 0.1);
+    border: 0.1px solid #1e82e6;
+    height: 62px;
+    background-size: 250%;
+    animation: gradientAnimation12 20s infinite alternate;
+  }
+
+  @keyframes gradientAnimation12 {
+    0% {
+      background-position: left;
+    }
+
+    100% {
+      background-position: right;
+    }
+  }
+
+  nav li {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 20px;
+  }
+
+  nav a {
+
+    padding: 10px 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav a:hover {
+    background-color: #74b9ff;
+
+  }
+
+  .copyrigth {
+    color: #cccfd6;
+
+  }
+
+  .social-media {
+
+    margin-bottom: 6px;
+  }
+
+  footer {
+    background-image: linear-gradient(to right, #6b61ff, #0f71f0);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 1.0), 0px -4px 5px rgba(0, 0, 0, 2.0);
+    padding: 10px;
+    text-align: center;
+  }
+
+  footer p {
+    color: #179bde;
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+    /* Menambahkan ketebalan pada teks */
+  }
+}
+
+@media (min-width: 1025px) and (max-height: 1440px) {
+
+
+  header {
+    height: 135px;
+    background-image: linear-gradient(to right, #1769d3, #147aff);
+  }
+
+
+
+
+
+  h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+
+  #kontak p {
+
+    text-align: left;
+    word-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  :root {
+    --gradient14:
+      radial-gradient(circle farthest-corner at 50% 80%, rgba(171, 102, 255, 1) 70%, rgba(116, 182, 247, 1) 30%);
+  }
+
+  #kontak {
+    height: 100vh;
+    background-image: var(--gradient14);
+    opacity: 0.9;
+    background-size: 120%;
+    animation: gradientAnimation 15s infinite alternate;
+
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: left;
+    }
+
+    100% {
+      background-position: right;
+    }
+  }
+
+
+
+  /*bagian tulisan selamat datang*/
+
+
+  .title {
+    font-display: flex;
+    margin-top: 10px;
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+  }
+
+
+  /* Menggunakan class untuk memilih elemen dengan class "logo-container" */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 155px;
+    height: auto;
+    position: relative;
+    margin-right: 40px;
+  }
+
+  /* Styling untuk gambar pertama (.logo1) */
+
+
+
+
+  :root {
+    --gradient3: linear-gradient(120deg, #9470ff 5%, #1e82e6 30%, #9470ff 100%, #18a0fb 10%);
+
+  }
+
+   .floating-warning button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    margin-right: 8px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+
+  .floating-warning {
+    position: fixed;
+    width: 470px;
+    height: 80px;
+    bottom: 300px;
+    margin-left: 10px;
+    right: 20px;
+    background-color: rgba(231, 76, 60, 0.9);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .floating-warning p {
+    font-size: 20px;
+    margin: 0;
+    padding-left: 30px;
+    color: white;
+  }
+
+  nav ul {
+    text-align: center;
+    background-image: var(--gradient3);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 1.0), 0px 0px 2px rgba(0, 0, 0, 0.1);
+    border: 0.1px solid #1e82e6;
+    height: 62px;
+    background-size: 250%;
+    animation: gradientAnimation12 20s infinite alternate;
+  }
+
+  @keyframes gradientAnimation12 {
+    0% {
+      background-position: left;
+    }
+
+    100% {
+      background-position: right;
+    }
+  }
+
+  nav li {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 20px;
+  }
+
+  nav a {
+
+    padding: 10px 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav a:hover {
+    background-color: #74b9ff;
+
+  }
+
+  .copyrigth {
+    color: #cccfd6;
+
+  }
+
+  .social-media {
+
+    margin-bottom: 6px;
+  }
+
+  footer {
+    background-image: linear-gradient(to right, #6b61ff, #0f71f0);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 1.0), 0px -4px 5px rgba(0, 0, 0, 2.0);
+    padding: 10px;
+    text-align: center;
+  }
+
+  footer p {
+    color: #179bde;
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+    /* Menambahkan ketebalan pada teks */
+  }
+}

@@ -1,0 +1,135 @@
+.card {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  /* Ganti dengan warna latar belakang yang diinginkan */
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: #40739e;
+}
+
+
+
+@media (max-width:376px) {
+
+  .card {
+    margin-top: 70px;
+  }
+
+  /*untuk bagian bawah kartu*/
+
+  .card1 {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* Ganti dengan warna latar belakang yang diinginkan */
+  }
+}
+
+
+@media (min-width:376px) and (max-width:425px) {
+
+
+  .card {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* Ganti dengan warna latar belakang yang diinginkan */
+  }
+
+  .card1 {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* Ganti dengan warna latar belakang yang diinginkan */
+  }
+}
+
+@media (min-width: 789px) and (max-width: 1189px) {
+
+ .card {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* Ganti dengan warna latar belakang yang diinginkan */
+  }
+
+
+  .card1 {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+  .card {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* Ganti dengan warna latar belakang yang diinginkan */
+  }
+
+
+  .card1 {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+}
